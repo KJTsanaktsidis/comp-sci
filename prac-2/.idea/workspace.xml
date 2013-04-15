@@ -4,8 +4,8 @@
     <list default="true" id="eace8c42-c18a-4467-a4ee-313ccd8aec12" name="Default" comment="" />
     <ignored path="prac-2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/SkipListDict.java" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366021334459" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366021384473" ignored="false" />
+    <file path="/SkipListDict.java" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366022769883" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366022782675" ignored="false" />
     <file path="/SkipListDictTest.java" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1365991984415" ignored="false" />
     <file path="/PoissonGenerator.java" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366004421747" ignored="false" />
     <file path="/fragment.java" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366021146762" ignored="false" />
@@ -61,23 +61,6 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/SkipListDict.java" line="138" class="net.kjtsanaktsidis.prac2.SkipListDict" package="net.kjtsanaktsidis.prac2">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -90,16 +73,16 @@
       <file leaf-file-name="SkipListDict.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/SkipListDict.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="205" column="0" selection-start="7073" selection-end="7073" vertical-scroll-proportion="-0.62346524">
+            <state line="333" column="40" selection-start="12761" selection-end="12761" vertical-scroll-proportion="6.2646656">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#358#390#0" expanded="true" />
-                <element signature="e#710#742#0" expanded="true" />
-                <element signature="e#1011#1043#0" expanded="true" />
-                <element signature="e#3102#3134#0" expanded="true" />
-                <element signature="e#5864#5896#0" expanded="true" />
-                <element signature="e#6147#6179#0" expanded="true" />
-                <element signature="e#6941#6973#0" expanded="true" />
+                <element signature="e#480#512#0" expanded="true" />
+                <element signature="e#832#864#0" expanded="true" />
+                <element signature="e#1133#1165#0" expanded="true" />
+                <element signature="e#5161#5193#0" expanded="true" />
+                <element signature="e#8887#8919#0" expanded="true" />
+                <element signature="e#9755#9787#0" expanded="true" />
+                <element signature="e#11152#11184#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,7 +103,9 @@
         <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Integer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="51" column="0" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <element signature="e#0#46449#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -495,7 +480,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -510,7 +495,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67193675" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67193675" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -594,7 +579,9 @@
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="0" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#0#46449#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -616,16 +603,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/SkipListDict.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="0" selection-start="7073" selection-end="7073" vertical-scroll-proportion="-0.62346524">
+        <state line="333" column="40" selection-start="12761" selection-end="12761" vertical-scroll-proportion="6.2646656">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#358#390#0" expanded="true" />
-            <element signature="e#710#742#0" expanded="true" />
-            <element signature="e#1011#1043#0" expanded="true" />
-            <element signature="e#3102#3134#0" expanded="true" />
-            <element signature="e#5864#5896#0" expanded="true" />
-            <element signature="e#6147#6179#0" expanded="true" />
-            <element signature="e#6941#6973#0" expanded="true" />
+            <element signature="e#480#512#0" expanded="true" />
+            <element signature="e#832#864#0" expanded="true" />
+            <element signature="e#1133#1165#0" expanded="true" />
+            <element signature="e#5161#5193#0" expanded="true" />
+            <element signature="e#8887#8919#0" expanded="true" />
+            <element signature="e#9755#9787#0" expanded="true" />
+            <element signature="e#11152#11184#0" expanded="true" />
           </folding>
         </state>
       </provider>

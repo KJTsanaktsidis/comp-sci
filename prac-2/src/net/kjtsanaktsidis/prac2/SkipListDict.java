@@ -5,6 +5,10 @@ import java.util.*;
 
 public class SkipListDict<K extends Comparable<? super K>, T> implements Map<K, T> {
 
+    /**
+     * Data container for the dictionary.
+     * Each Tower contains a list of forward and backward links
+     */
     private class Tower {
 
         private Tower flinks[];
@@ -44,6 +48,11 @@ public class SkipListDict<K extends Comparable<? super K>, T> implements Map<K, 
     private Tower rightSentinel;
     private int count;
 
+    /**
+     * Public constructor for the dictionary
+     *
+     * @postcondition a left/right sentinel tower are set up and connected
+     */
     public SkipListDict()
     {
         //Set up L/Rsentinels
@@ -55,10 +64,24 @@ public class SkipListDict<K extends Comparable<? super K>, T> implements Map<K, 
         this.count = 0;
     }
 
+    /**
+     * Returns a tower that either contains a key, or sits directly to the left of where the tower
+     * with said key would be if it were inserted (if the key does not exist)
+     *
+     * @param key The key to search for
+     * @return A reference to the tower with this key or to the left if key does not exist
+     */
     private Tower findTowerOrLeft(K key) {
         return this.findTowerOrLeft(key, this.leftSentinel);
     }
 
+    /**
+     * This method searches for a key, returning the tower that key is found in or null if key does not exist.
+     * It is implemented via a call to findTowerOrLeft()
+     *
+     * @param key The key to search for
+     * @return The tower the key is found in, or null if it does not exist
+     */
     private Tower findTowerOrNull(K key) {
         Tower lmostOrVal = this.findTowerOrLeft(key);
         if (!lmostOrVal.isSentinel && lmostOrVal.key.equals(key)) {
@@ -69,6 +92,14 @@ public class SkipListDict<K extends Comparable<? super K>, T> implements Map<K, 
         }
     }
 
+    /**
+     * Implementation of findTowerOrLeft() that begins searching at a particular tower on the left
+     *
+     * @param key The key to search for
+     * @param curNode The node to beigin searching at
+     * @return The node a key is found in, or if not found, a tower immedietly to the left of it
+     * @complexity amortized O(log N) since it slides sideways and downwards through the towers
+     */
     private Tower findTowerOrLeft(K key, Tower curNode) {
         //Check if key is us first, to skip the loop
         if (!curNode.isSentinel && curNode.key.equals(key)) {
@@ -88,6 +119,17 @@ public class SkipListDict<K extends Comparable<? super K>, T> implements Map<K, 
         return curNode;
     }
 
+    /**
+     * Constructs a new tower in the correct position for the input key.
+     * @param leftNode The node immedietly to the left of where we will insert
+     * @param targetKey The key to add to this tower
+     * @return The created tower
+     * @postcondition A new tower is linked in at a poisson-generated height and at the specified position
+     *                The links in this tower are set up to point to neighbours it can see
+     * @complexity amortized O(log N): since we do a diagonal left/down search for nodes that will point to the new node
+     *              linking the new tower to its neighbours is also proportional to the height, which is amortized
+     *              O(log N) also (due to RNG distribution)
+     */
     @SuppressWarnings({"unchecked"})
     private Tower makeTower(Tower leftNode, K targetKey) {
         //create a tower to the right of leftNode
@@ -133,6 +175,18 @@ public class SkipListDict<K extends Comparable<? super K>, T> implements Map<K, 
         return nTower;
     }
 
+    /**
+     * Inserts the specified key/value pair
+     *
+     * @param key What it says on the box
+     * @param value ^^
+     * @return The old value stored against this key, or null if this key is inserted for the first time
+     * @complexity O(log N) whether or not a new key is created. A call to findTowerOrLeft (O(log N)) is needed,
+     *              plus possibly a call to makeTower (which is also O(log N)). Hence amortized O(log N)
+     * @postcondition: A new tower is created + linked for this key/value pair, or if key iexsits, an existing tower
+     *                  has it's value changed
+     *                  The count is adjusted
+     */
     @Override
     public T put(K key, T value) {
         //find the insertion point
@@ -156,6 +210,13 @@ public class SkipListDict<K extends Comparable<? super K>, T> implements Map<K, 
         return oldval;
     }
 
+    /**
+     * Returns the value stored against this key, or null if the key does not exist
+     *
+     * @param key The key to get data for
+     * @return The value stored against this key, or null if key not found
+     * @complexity Amortized O(log N) since it relies on findTowerOrNull()
+     */
     @Override
     @SuppressWarnings({"unchecked"})
     public T get(Object key) {
@@ -168,6 +229,16 @@ public class SkipListDict<K extends Comparable<? super K>, T> implements Map<K, 
         }
     }
 
+    /**
+     * Deletes the specified key/tower, if it exists
+     *
+     * @param key The key to search for and delete
+     * @return The previous value stored against this key, or null if it did not exist
+     * @complexity amortized O(log N) since it relies on findTowerOrNull(); backlinks ensure that only work proportional
+     *              to tower height (also O(log N)) needs to be done in addition to this.
+     * @postcondition The tower with this key in it is removed, and neighbouring links updated to reflect this fact
+     *                The count is adjusted
+     */
     @Override
     @SuppressWarnings({"unchecked"})
     public T remove(Object key) {
@@ -188,22 +259,48 @@ public class SkipListDict<K extends Comparable<? super K>, T> implements Map<K, 
         }
     }
 
+    /**
+     * Gets the number of elements in this dictionary (exclusive of sentinals)
+     *
+     * @return The number of elements in this dictionary
+     * @complexity O(1)
+     */
     @Override
     public int size() {
         return this.count;
     }
 
+    /**
+     * Gets whether or not there are any elements in this dictionary
+     *
+     * @return true if dictionary is empty, else false
+     * @complexity O(1)
+     */
     @Override
     public boolean isEmpty() {
         return this.count == 0;
     }
 
+    /**
+     * Attempts to find whether or not a tower with the specified key exists
+     *
+     * @param key The key to search for
+     * @return True if a tower is found, otherwise false
+     * @complexity O(log N) since findTowerOrNull()
+     */
     @Override
     @SuppressWarnings({"unchecked"})
     public boolean containsKey(Object key) {
         return findTowerOrNull((K)key) != null;
     }
 
+    /**
+     * Whether or not a tower contains the specified value
+     *
+     * @param value The value to search for
+     * @return Whether or not a tower contains the specified value
+     * @complexity O(N) since a linear search is performed along the bottom of the towers
+     */
     @Override
     public boolean containsValue(Object value) {
         Tower cTower = this.leftSentinel;
@@ -215,6 +312,14 @@ public class SkipListDict<K extends Comparable<? super K>, T> implements Map<K, 
         return !cTower.flinks[0].isSentinel;
     }
 
+    /**
+     * Deletes all elements from this dictionary
+     *
+     * @complexity O(1) since we just update refs on l/r sentinel to cut out all other links
+     * @postcondition All elements are removed from the dictionary
+     *                  The heights of the sentinel towers are not changed
+     *                  The count is adjusted to zero
+     */
     @Override
     public void clear() {
         //just link up the left and right snetinels; everything else will get GC'd
@@ -224,6 +329,9 @@ public class SkipListDict<K extends Comparable<? super K>, T> implements Map<K, 
         }
         this.count = 0;
     }
+
+    //These methods are only here to satisfy java's Map interface, not the requirements for the prac
+    //So i won't bother documenting them
 
     @Override
     public void putAll(Map<? extends K, ? extends T> m) {
