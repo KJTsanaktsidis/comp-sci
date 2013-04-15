@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java-scratchpad.iml" filepath="$PROJECT_DIR$/java-scratchpad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prac-2/prac-2.iml" filepath="$PROJECT_DIR$/prac-2/prac-2.iml" />
     </modules>
   </component>
 </project>

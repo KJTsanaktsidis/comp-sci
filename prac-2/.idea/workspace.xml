@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0acd07c9-b259-49a9-8699-0f588654813f" name="Default" comment="" />
-    <ignored path="java-scratchpad.iws" />
+    <list default="true" id="eace8c42-c18a-4467-a4ee-313ccd8aec12" name="Default" comment="" />
+    <ignored path="prac-2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/AVLTree.java" changelist="0acd07c9-b259-49a9-8699-0f588654813f" time="1365380552061" ignored="false" />
-    <file path="/SortedMapTests.java" changelist="0acd07c9-b259-49a9-8699-0f588654813f" time="1365380629879" ignored="false" />
-    <file path="/AVLTreeTests.java" changelist="0acd07c9-b259-49a9-8699-0f588654813f" time="1365388593112" ignored="false" />
+    <file path="/SkipListDict.java" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366021334459" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366021384473" ignored="false" />
+    <file path="/SkipListDictTest.java" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1365991984415" ignored="false" />
+    <file path="/PoissonGenerator.java" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366004421747" ignored="false" />
+    <file path="/fragment.java" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366021146762" ignored="false" />
+    <file path="/Dummy.txt" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366007724290" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,57 +61,66 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/SkipListDict.java" line="138" class="net.kjtsanaktsidis.prac2.SkipListDict" package="net.kjtsanaktsidis.prac2">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="java-scratchpad" />
+    <favorites_list name="prac-2" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AVLTree.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/AVLTree.java">
+      <file leaf-file-name="SkipListDict.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/SkipListDict.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="5" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortedMapTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/tests/SortedMapTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AVLTreeTests.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/tests/AVLTreeTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="286" column="0" selection-start="8698" selection-end="8698" vertical-scroll-proportion="0.8462585">
+            <state line="205" column="0" selection-start="7073" selection-end="7073" vertical-scroll-proportion="-0.62346524">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#288#305#0" expanded="true" />
-                <element signature="e#445#462#0" expanded="true" />
-                <element signature="e#963#980#0" expanded="true" />
-                <element signature="e#1332#1349#0" expanded="true" />
-                <element signature="e#1850#1867#0" expanded="true" />
-                <element signature="e#2057#2074#0" expanded="true" />
-                <element signature="e#2226#2243#0" expanded="true" />
-                <element signature="e#2722#2739#0" expanded="true" />
-                <element signature="e#2906#2923#0" expanded="true" />
-                <element signature="e#3829#3846#0" expanded="true" />
-                <element signature="e#4375#4392#0" expanded="true" />
-                <element signature="e#5069#5086#0" expanded="true" />
-                <element signature="e#5379#5396#0" expanded="true" />
-                <element signature="e#6096#6113#0" expanded="true" />
-                <element signature="e#6507#6524#0" expanded="true" />
-                <element signature="e#7196#7213#0" expanded="true" />
-                <element signature="e#8253#8270#0" expanded="true" />
+                <element signature="e#358#390#0" expanded="true" />
+                <element signature="e#710#742#0" expanded="true" />
+                <element signature="e#1011#1043#0" expanded="true" />
+                <element signature="e#3102#3134#0" expanded="true" />
+                <element signature="e#5864#5896#0" expanded="true" />
+                <element signature="e#6147#6179#0" expanded="true" />
+                <element signature="e#6941#6973#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SkipListDictTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/net/kjtsanaktsidis/prac2/tests/SkipListDictTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="16" selection-start="1630" selection-end="1630" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Integer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Integer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="0" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,9 +135,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/AVLTree.java" />
-        <option value="$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/tests/SortedMapTests.java" />
-        <option value="$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/tests/AVLTreeTests.java" />
+        <option value="$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/net/kjtsanaktsidis/prac2/tests/SkipListDictTest.java" />
+        <option value="$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/PoissonGenerator.java" />
+        <option value="$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/SkipListDict.java" />
       </list>
     </option>
   </component>
@@ -134,6 +146,53 @@
     <option name="y" value="-8" />
     <option name="width" value="1554" />
     <option name="height" value="916" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Code maturity issues</id>
+          </State>
+          <State>
+            <id>Control FlowGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issues</id>
+          </State>
+          <State>
+            <id>Data flow issues</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>Error handlingGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Naming conventions</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -146,7 +205,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -162,54 +221,122 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java-scratchpad" />
+              <option name="myItemId" value="prac-2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.7 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+              <option name="myItemId" value="prac-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prac-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java-scratchpad" />
+              <option name="myItemId" value="prac-2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java-scratchpad" />
+              <option name="myItemId" value="prac-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prac2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prac-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prac-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prac2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="project.propDebugger" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="Downloaded.Files.Path" value="C:\Users\KJ\Dropbox\Uni\5thyear\CompSci\comp-sci\java-scratchpad\lib" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="Downloaded.Files.Path" value="C:\Users\KJ\Dropbox\Uni\5thyear\CompSci\comp-sci\prac-2\lib" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Tests">
+    <configuration default="false" name="SkipListDictTest.canPutItems" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="prac-2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="net.kjtsanaktsidis.prac2.net.kjtsanaktsidis.prac2.tests" />
+      <option name="MAIN_CLASS_NAME" value="net.kjtsanaktsidis.prac2.net.kjtsanaktsidis.prac2.tests.SkipListDictTest" />
+      <option name="METHOD_NAME" value="canPutItems" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -298,41 +425,94 @@
       <patterns />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="false" name="Tests" type="JUnit" factoryName="JUnit">
+      <module name="prac-2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="net.kjtsanaktsidis.prac2.net.kjtsanaktsidis.prac2.tests" />
+      <option name="MAIN_CLASS_NAME" value="net.kjtsanaktsidis.prac2.net.kjtsanaktsidis.prac2.tests.SkipListDictTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Tests" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SkipListDictTest.canPutItems" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SkipListDictTest.canPutItems" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0acd07c9-b259-49a9-8699-0f588654813f" name="Default" comment="" />
-      <created>1365380184597</created>
-      <updated>1365380184597</updated>
+      <changelist id="eace8c42-c18a-4467-a4ee-313ccd8aec12" name="Default" comment="" />
+      <created>1365990644840</created>
+      <updated>1365990644840</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3886693" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67193675" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67193675" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -371,7 +551,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -399,177 +579,53 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/AVLTree.java">
+    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/PoissonGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+        <state line="14" column="17" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/tests/SortedMapTests.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
+        <state line="51" column="0" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/AVLTree.java">
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.41975307">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/tests/SortedMapTests.java">
+    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/net/kjtsanaktsidis/prac2/tests/SkipListDictTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/tests/AVLTreeTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="286" column="0" selection-start="8698" selection-end="8698" vertical-scroll-proportion="0.0">
+        <state line="61" column="16" selection-start="1630" selection-end="1630" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#288#305#0" expanded="true" />
-            <element signature="e#445#462#0" expanded="true" />
-            <element signature="e#963#980#0" expanded="true" />
-            <element signature="e#1332#1349#0" expanded="true" />
-            <element signature="e#1850#1867#0" expanded="true" />
-            <element signature="e#2057#2074#0" expanded="true" />
-            <element signature="e#2226#2243#0" expanded="true" />
-            <element signature="e#2722#2739#0" expanded="true" />
-            <element signature="e#2906#2923#0" expanded="true" />
-            <element signature="e#3829#3846#0" expanded="true" />
-            <element signature="e#4375#4392#0" expanded="true" />
-            <element signature="e#5069#5086#0" expanded="true" />
-            <element signature="e#5379#5396#0" expanded="true" />
-            <element signature="e#6096#6113#0" expanded="true" />
-            <element signature="e#6507#6524#0" expanded="true" />
-            <element signature="e#7196#7213#0" expanded="true" />
-            <element signature="e#8253#8270#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/AVLTree.java">
+    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/SkipListDict.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/tests/AVLTreeTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="5" selection-start="4964" selection-end="4964" vertical-scroll-proportion="0.0">
+        <state line="205" column="0" selection-start="7073" selection-end="7073" vertical-scroll-proportion="-0.62346524">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#288#305#0" expanded="true" />
-            <element signature="e#445#462#0" expanded="true" />
-            <element signature="e#963#980#0" expanded="true" />
-            <element signature="e#1332#1349#0" expanded="true" />
-            <element signature="e#1850#1867#0" expanded="true" />
-            <element signature="e#2057#2074#0" expanded="true" />
-            <element signature="e#2226#2243#0" expanded="true" />
-            <element signature="e#2722#2739#0" expanded="true" />
-            <element signature="e#2906#2923#0" expanded="true" />
-            <element signature="e#3829#3846#0" expanded="true" />
-            <element signature="e#4375#4392#0" expanded="true" />
-            <element signature="e#5069#5086#0" expanded="true" />
-            <element signature="e#5379#5396#0" expanded="true" />
-            <element signature="e#6096#6113#0" expanded="true" />
-            <element signature="e#6507#6524#0" expanded="true" />
-            <element signature="e#7196#7213#0" expanded="true" />
-            <element signature="e#8253#8270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/tests/SortedMapTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/AVLTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/tests/AVLTreeTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="53" selection-start="4594" selection-end="4594" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#288#305#0" expanded="true" />
-            <element signature="e#445#462#0" expanded="true" />
-            <element signature="e#963#980#0" expanded="true" />
-            <element signature="e#1332#1349#0" expanded="true" />
-            <element signature="e#1850#1867#0" expanded="true" />
-            <element signature="e#2057#2074#0" expanded="true" />
-            <element signature="e#2226#2243#0" expanded="true" />
-            <element signature="e#2722#2739#0" expanded="true" />
-            <element signature="e#2906#2923#0" expanded="true" />
-            <element signature="e#3829#3846#0" expanded="true" />
-            <element signature="e#4375#4392#0" expanded="true" />
-            <element signature="e#5069#5086#0" expanded="true" />
-            <element signature="e#5379#5396#0" expanded="true" />
-            <element signature="e#6096#6113#0" expanded="true" />
-            <element signature="e#6507#6524#0" expanded="true" />
-            <element signature="e#7196#7213#0" expanded="true" />
-            <element signature="e#8253#8270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/tests/SortedMapTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/tests/SortedMapTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/AVLTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/collections/tests/AVLTreeTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="286" column="0" selection-start="8698" selection-end="8698" vertical-scroll-proportion="0.8462585">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#288#305#0" expanded="true" />
-            <element signature="e#445#462#0" expanded="true" />
-            <element signature="e#963#980#0" expanded="true" />
-            <element signature="e#1332#1349#0" expanded="true" />
-            <element signature="e#1850#1867#0" expanded="true" />
-            <element signature="e#2057#2074#0" expanded="true" />
-            <element signature="e#2226#2243#0" expanded="true" />
-            <element signature="e#2722#2739#0" expanded="true" />
-            <element signature="e#2906#2923#0" expanded="true" />
-            <element signature="e#3829#3846#0" expanded="true" />
-            <element signature="e#4375#4392#0" expanded="true" />
-            <element signature="e#5069#5086#0" expanded="true" />
-            <element signature="e#5379#5396#0" expanded="true" />
-            <element signature="e#6096#6113#0" expanded="true" />
-            <element signature="e#6507#6524#0" expanded="true" />
-            <element signature="e#7196#7213#0" expanded="true" />
-            <element signature="e#8253#8270#0" expanded="true" />
+            <element signature="e#358#390#0" expanded="true" />
+            <element signature="e#710#742#0" expanded="true" />
+            <element signature="e#1011#1043#0" expanded="true" />
+            <element signature="e#3102#3134#0" expanded="true" />
+            <element signature="e#5864#5896#0" expanded="true" />
+            <element signature="e#6147#6179#0" expanded="true" />
+            <element signature="e#6941#6973#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -603,7 +659,6 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>junit4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -627,7 +682,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>java-scratchpad</last-edited>
+          <last-edited>prac-2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -652,7 +707,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.junit:com.springsource.org.junit:4.11.0</last-edited>
+          <last-edited>junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
