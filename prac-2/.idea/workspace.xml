@@ -4,12 +4,14 @@
     <list default="true" id="eace8c42-c18a-4467-a4ee-313ccd8aec12" name="Default" comment="" />
     <ignored path="prac-2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/SkipListDict.java" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366022769883" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366022782675" ignored="false" />
+    <file path="/SkipListDict.java" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366030766126" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366023515281" ignored="false" />
     <file path="/SkipListDictTest.java" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1365991984415" ignored="false" />
     <file path="/PoissonGenerator.java" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366004421747" ignored="false" />
-    <file path="/fragment.java" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366021146762" ignored="false" />
-    <file path="/Dummy.txt" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366007724290" ignored="false" />
+    <file path="/fragment.java" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366031472472" ignored="false" />
+    <file path="/Dummy.txt" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366027198880" ignored="false" />
+    <file path="/SvgSkipListRenderer.java" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366030849300" ignored="false" />
+    <file path="/DictMenuDriver.java" changelist="eace8c42-c18a-4467-a4ee-313ccd8aec12" time="1366033342208" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,17 +75,8 @@
       <file leaf-file-name="SkipListDict.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/SkipListDict.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="333" column="40" selection-start="12761" selection-end="12761" vertical-scroll-proportion="6.2646656">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#480#512#0" expanded="true" />
-                <element signature="e#832#864#0" expanded="true" />
-                <element signature="e#1133#1165#0" expanded="true" />
-                <element signature="e#5161#5193#0" expanded="true" />
-                <element signature="e#8887#8919#0" expanded="true" />
-                <element signature="e#9755#9787#0" expanded="true" />
-                <element signature="e#11152#11184#0" expanded="true" />
-              </folding>
+            <state line="16" column="14" selection-start="492" selection-end="492" vertical-scroll-proportion="0.3096862">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,7 +84,18 @@
       <file leaf-file-name="SkipListDictTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/net/kjtsanaktsidis/prac2/tests/SkipListDictTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="16" selection-start="1630" selection-end="1630" vertical-scroll-proportion="0.0">
+            <state line="13" column="8" selection-start="340" selection-end="475" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SvgSkipListRenderer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/SvgSkipListRenderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="88" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,12 +103,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Integer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Integer.java">
+      <file leaf-file-name="DictMenuDriver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/DictMenuDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0">
+            <state line="101" column="21" selection-start="3688" selection-end="3688" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#0#46449#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,6 +127,8 @@
         <option value="$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/net/kjtsanaktsidis/prac2/tests/SkipListDictTest.java" />
         <option value="$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/PoissonGenerator.java" />
         <option value="$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/SkipListDict.java" />
+        <option value="$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/SvgSkipListRenderer.java" />
+        <option value="$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/DictMenuDriver.java" />
       </list>
     </option>
   </component>
@@ -190,7 +196,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -247,28 +253,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prac-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prac-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prac2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -277,7 +261,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="recentsLimit" value="5" />
@@ -287,15 +271,16 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="Downloaded.Files.Path" value="C:\Users\KJ\Dropbox\Uni\5thyear\CompSci\comp-sci\prac-2\lib" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="Downloaded.Files.Path" value="C:\Users\KJ\Dropbox\Uni\5thyear\CompSci\comp-sci\prac-2\lib" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.Tests">
+  <component name="RunManager" selected="Application.Command Loop">
     <configuration default="false" name="SkipListDictTest.canPutItems" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="prac-2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -336,19 +321,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -374,6 +346,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -410,6 +395,44 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="false" name="SVGRender" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.kjtsanaktsidis.prac2.SvgSkipListRenderer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="prac-2" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Command Loop" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.kjtsanaktsidis.prac2.DictMenuDriver" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="prac-2" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="Tests" type="JUnit" factoryName="JUnit">
       <module name="prac-2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -438,9 +461,11 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Tests" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SkipListDictTest.canPutItems" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.SVGRender" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Command Loop" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Tests" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SkipListDictTest.canPutItems" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -490,13 +515,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67193675" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.30566534" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6943346" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -569,6 +594,38 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/SkipListDict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/SvgSkipListRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="11" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/net/kjtsanaktsidis/prac2/tests/SkipListDictTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="16" selection-start="1630" selection-end="1630" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/PoissonGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="17" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
@@ -576,25 +633,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#46449#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.41975307">
-          <folding />
-        </state>
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.41975307" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/net/kjtsanaktsidis/prac2/tests/SkipListDictTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="16" selection-start="1630" selection-end="1630" vertical-scroll-proportion="0.0">
+        <state line="13" column="8" selection-start="340" selection-end="475" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/SvgSkipListRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="88" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.023192361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/DictMenuDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="21" selection-start="3688" selection-end="3688" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -603,17 +674,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/kjtsanaktsidis/prac2/SkipListDict.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="333" column="40" selection-start="12761" selection-end="12761" vertical-scroll-proportion="6.2646656">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#480#512#0" expanded="true" />
-            <element signature="e#832#864#0" expanded="true" />
-            <element signature="e#1133#1165#0" expanded="true" />
-            <element signature="e#5161#5193#0" expanded="true" />
-            <element signature="e#8887#8919#0" expanded="true" />
-            <element signature="e#9755#9787#0" expanded="true" />
-            <element signature="e#11152#11184#0" expanded="true" />
-          </folding>
+        <state line="16" column="14" selection-start="492" selection-end="492" vertical-scroll-proportion="0.3096862">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -694,7 +756,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>junit:junit:4.11</last-edited>
+          <last-edited>org.apache.xmlgraphics:batik-svggen:1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

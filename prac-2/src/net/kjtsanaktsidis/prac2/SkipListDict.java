@@ -8,14 +8,16 @@ public class SkipListDict<K extends Comparable<? super K>, T> implements Map<K, 
     /**
      * Data container for the dictionary.
      * Each Tower contains a list of forward and backward links
+     * We need the tower and it's elements to be package-private so that we can get at them from the SVG renderer
      */
-    private class Tower {
+     class Tower {
 
-        private Tower flinks[];
-        private Tower blinks[];
-        private K key;
-        private T value;
-        private boolean isSentinel;
+        Tower flinks[];
+        Tower blinks[];
+        K key;
+        T value;
+        boolean isSentinel;
+        int searchPathFollowed = -1;
 
         @SuppressWarnings({"unchecked"})
         public Tower(K key, T value, int height) {
@@ -44,8 +46,8 @@ public class SkipListDict<K extends Comparable<? super K>, T> implements Map<K, 
         }
     }
 
-    private Tower leftSentinel;
-    private Tower rightSentinel;
+    Tower leftSentinel;
+    Tower rightSentinel;
     private int count;
 
     /**
@@ -110,6 +112,7 @@ public class SkipListDict<K extends Comparable<? super K>, T> implements Map<K, 
         for (int i = curNode.flinks.length - 1; i >= 0; i--) {
             if (!curNode.flinks[i].isSentinel) {
                 if (curNode.flinks[i].key.compareTo(key) <= 0) {
+                    curNode.searchPathFollowed = i;
                     //this node is less than (or equal to) our key, use it as search base
                     return this.findTowerOrLeft(key, curNode.flinks[i]);
                 }
@@ -330,6 +333,14 @@ public class SkipListDict<K extends Comparable<? super K>, T> implements Map<K, 
         this.count = 0;
     }
 
+    void resetSearchPathTrace() {
+        Tower cTower = this.leftSentinel;
+        while (cTower != null) {
+            cTower.searchPathFollowed = -1;
+            cTower = cTower.flinks[0];
+        }
+    }
+
     //These methods are only here to satisfy java's Map interface, not the requirements for the prac
     //So i won't bother documenting them
 
@@ -341,8 +352,8 @@ public class SkipListDict<K extends Comparable<? super K>, T> implements Map<K, 
     }
 
     @Override
-    public Set<K> keySet() {
-        Set<K> rSet = new HashSet<>();
+    public SortedSet<K> keySet() {
+        SortedSet<K> rSet = new TreeSet<>();
         Tower cTower = this.leftSentinel;
         while (!cTower.flinks[0].isSentinel) {
             rSet.add(cTower.flinks[0].key);
